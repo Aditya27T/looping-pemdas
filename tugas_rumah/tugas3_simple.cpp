@@ -1,5 +1,5 @@
 #include <iostream>
-// #include <windows.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -25,22 +25,22 @@ int main() {
                     cout << "Maaf, saldo tidak cukup." << endl;
                     // system("pause");
                     cin.ignore().get();
-                    // system("cls");
-                    system("clear");
+                    system("cls");
+                    // system("clear");
                     
                 } else if (jumlah < 50000) {
                     cout << "Maaf, minimal penarikan adalah 50000." << endl;
                     // system("pause");
                     cin.ignore().get();
-                    // system("cls");
-                    system("clear");
+                    system("cls");
+                    // system("clear");
                 } else {
                     saldo -= jumlah;
                     cout << "Berhasil menarik uang sebesar " << jumlah << endl;
                     // system("pause");
                     cin.ignore().get();
-                    // system("cls");
-                    system("clear");
+                    system("cls");
+                    // system("clear");
                 }
                 break;
             case 2:
@@ -52,16 +52,16 @@ int main() {
                 // system("pause");
                 cin.ignore().get();
 
-                // system("cls");
-                system("clear");
+                system("cls");
+                // system("clear");
                 break;
             case 3:
                 cout << "Terima kasih telah menggunakan layanan kami." << endl;
                 break;
             default:
                 cout << "Pilihan tidak valid." << endl;
-                // system("cls");
-                system("clear");
+                system("cls");
+                // system("clear");
                 break;
         }
     } while (pilihan != 3);
